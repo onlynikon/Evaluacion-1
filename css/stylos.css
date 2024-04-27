@@ -1,0 +1,25 @@
+.Promocion_Wendys{
+    background-image: url('/img/Titulo2.png');
+    height: 20vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.Promocion_Wendys::before {
+    content: "";
+    position: absolute;
+    height: 50vh;
+    width: 50%;
+}
+
+.barratitulo {
+    background-color: #ce2029;
+}
+
+.barratitulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10.2rem;
+}
