@@ -1,49 +1,44 @@
-.Promocion_Wendys{
-    background-image: url('/img/Titulo2.png');
-    height: 20rem;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 1rem;
-}
-
-.Promocion_Wendys::before {
-    content: "";
-    position: absolute;
-    height: 50vh;
-    width: 50%;
+.Promocion_Wendys {
+  background-image: url("/img/Titulo2.png");
+  height: 20rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
 }
 
 .barratitulo {
-    background-color: #ce2029;
+  background-color: #ce2029;
 }
 
 .barratitulo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 10.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10.2rem;
 }
 
 .container {
-    width: 100rem;
-    margin: 0 auto;
-    padding: 10px 0 ;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 7rem;
+  display: flex;
+  justify-content: start;
+  height: 5rem;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .icono {
-    flex-basis: 15%;
+  flex-basis: 15%;
 }
 
-
+.nav-selection{
+  display: flex;
+  border-left: white 3px solid;
+  
+}
