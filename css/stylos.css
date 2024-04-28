@@ -1,9 +1,10 @@
 .Promocion_Wendys{
     background-image: url('/img/Titulo2.png');
-    height: 20vh;
+    height: 20rem;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 1rem;
 }
 
 .Promocion_Wendys::before {
