@@ -9,17 +9,14 @@
 
 .barratitulo {
   background-color: #ce2029;
-}
-
-.barratitulo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10.2rem;
+  padding: 10px;
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -29,16 +26,158 @@
   height: 5rem;
 }
 
+.navbar a {
+  margin-left: -1000px;
+}
+
 img {
   max-width: 100%;
 }
 
 .icono {
   flex-basis: 15%;
-}
-
-.nav-selection{
-  display: flex;
-  border-left: white 3px solid;
   
 }
+
+.nav-seleccion {
+  display: flex;
+  justify-content: center;
+  padding-top: .8rem;
+}
+
+.nav_white {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.iniciar_sesion{
+  color:white;
+  text-decoration: none;
+  margin-left:auto;
+}
+
+ul{
+  list-style: none;
+
+}
+
+.section_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link_button {
+  background-color: #029cd4;
+  color: #fff;
+  font-size: 18px;
+  padding: 1rem;
+  border-radius: 5rem;
+  
+}
+
+.lista_ofertas{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.titulo{
+  color: #111111;
+  font-family: '4424-font', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.lista_productos{
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.producto{
+  width: 290px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  }
+
+  h4{
+    color: black;
+    font-weight: bold;
+    font-weight: 700;
+  }
+
+  .producto_texto{
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 10px;
+    max-height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+  }
+
+  .producto_precio{
+    color: #111111;
+    font-size: 18.4px;
+  }
+
+  main{
+    background-color: #e3e3e3;
+    padding-bottom: 1.5rem;
+  }
+  body{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  footer{
+    background-color: #111111;
+    color: #fff;
+    padding: 40px 0;
+  }
+
+  .lista_footer {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .footer_logo{
+    margin-right: 40px;
+  }
+
+  .link_footer {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  .footer-section{
+    margin-right: 40px;
+  }
+  
+  .footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  }
+
+  .footer-section ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-section li{
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  
+  .seccion_header{
+    display: flex;
+  }
