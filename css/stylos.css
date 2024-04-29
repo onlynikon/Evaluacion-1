@@ -4,7 +4,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+main{
+  padding-top: 1rem;
 }
 
 .barratitulo {
@@ -117,13 +121,13 @@ ul{
     font-size: 14px;
     margin-bottom: 10px;
     max-height: 40px;
-    line-height: 20px;
-    overflow: hidden;
+    line-height: 15px;
   }
 
   .producto_precio{
     color: #111111;
     font-size: 18.4px;
+    padding-top: 10px;
   }
 
   main{
@@ -136,7 +140,7 @@ ul{
   }
 
   footer{
-    background-color: #111111;
+    background-color: #000000;
     color: #fff;
     padding: 40px 0;
   }
@@ -144,7 +148,7 @@ ul{
   .lista_footer {
     display: flex;
     justify-content: space-between;
-    
+    font-weight: bold;
   }
 
   .footer_logo{
@@ -155,29 +159,25 @@ ul{
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
+    margin-bottom: 1rem;
   }
 
-  .footer-section{
-    margin-right: 40px;
-  }
-  
-  .footer-section h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  }
-
-  .footer-section ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .footer-section li{
-    margin-bottom: 5px;
-    font-size: 14px;
-  }
-
-  
   .seccion_header{
     display: flex;
+  }
+
+  .remove_padding{
+    padding: 0px;
+  }
+
+  .lista_conocenos{
+    padding-right: 10rem;
+  }
+
+  .redes_sociales{
+    padding-right: 18rem;
+  }
+
+  .mi_cuenta{
+    padding-right: 8rem;
   }
